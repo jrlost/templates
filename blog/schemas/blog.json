@@ -1,0 +1,289 @@
+{
+  "$schema": "./../__json/schema.json",
+  "schema": {
+    "noFieldDeletion": false,
+    "noFieldRecreation": false,
+    "properties": {
+      "validateOnPublish": false
+    },
+    "scripts": {},
+    "fieldsInReferences": [],
+    "fieldsInLists": [
+      "title",
+      "author",
+      "displayDate",
+      "meta.status",
+      "meta.lastModified"
+    ],
+    "fields": [
+      {
+        "name": "title",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 200,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "label": "Post Title",
+          "hints": "Post Title",
+          "isRequired": true,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "htmlTitle",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 200,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "label": "HTML Title",
+          "hints": "Custom html title for the post.",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "slug",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 200,
+          "isUnique": true,
+          "inlineEditable": true,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Slug",
+          "label": "Slug",
+          "hints": "A unique string that appends the primary blog URL, where this post will display.",
+          "isRequired": true,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "fullText",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "RichText",
+          "label": "Full Text",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "shortText",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 500,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "TextArea",
+          "label": "Short Description",
+          "hints": "This is the blog post teaser that will display on the main list page.",
+          "isRequired": true,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "image",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "Assets",
+          "previewMode": "ImageAndFileName",
+          "maxItems": 1,
+          "resolveFirst": false,
+          "mustBeImage": false,
+          "resolveImage": false,
+          "allowDuplicates": false,
+          "label": "Featured Image",
+          "hints": "The primary image for the post.",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "imageAltTag",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 200,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "label": "Alternate tag",
+          "hints": "Enter an alt tag for the primary image.",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "metaDescription",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 250,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "label": "Meta Description",
+          "hints": "Enter meta description for the post.",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "metaKeywords",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 250,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "label": "Meta Keywords",
+          "hints": "Enter meta keywords for the post.",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "category",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 100,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "label": "Category",
+          "hints": "Enter a category to organize blog posts.",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "tags",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "Tags",
+          "createEnum": false,
+          "editor": "Tags",
+          "label": "Tags",
+          "hints": "Enter one to many tags per blog posts for categorization.",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "author",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "maxLength": 100,
+          "isUnique": false,
+          "inlineEditable": false,
+          "createEnum": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "label": "Author",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "displayDate",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "DateTime",
+          "editor": "Date",
+          "calculatedDefaultValue": "Today",
+          "label": "Date Display",
+          "hints": "The date (Central Standard Time) that will display on the blog post.",
+          "isRequired": true,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      }
+    ],
+    "previewUrls": {},
+    "fieldRules": [],
+    "isPublished": true
+  },
+  "name": "blog",
+  "isSingleton": false,
+  "schemaType": "Default"
+}

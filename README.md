@@ -6,17 +6,13 @@ This repository contains app templates for Squidex CMS.
 
 The main repository: https://github.com/squidex/squidex
 
-## How to make feature requests, get help or report bugs? 
-
-Please join our community forum: https://support.squidex.io
-
 ## Existing Templates
 
 Just click one of the following links to navigate to the templates and to get installation instructions.
 
 > IMPORTANT: The samples are based on the official CLI, which can be downloaded from the following link:  [Download CLI](https://github.com/Squidex/squidex-samples/releases).
 
-* [Starter Sample Blog](sample-blog/README.md): Create a simple blog with samples for ASP.NET Core, React, Angular and VueJS.
+* [Starter - New App with Blog](blog/README.md): Create a new application that contains the blog schema.
 
 ## How to create a new template?
 

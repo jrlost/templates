@@ -18,6 +18,7 @@
           "fieldType": "String",
           "isUnique": false,
           "inlineEditable": false,
+          "createEnum": false,
           "contentType": "Unspecified",
           "editor": "Input",
           "isRequired": true,

@@ -176,7 +176,7 @@
     }
     ```
 2. Open the schema page.  
-  ![Schema Modal](https://raw.githubusercontent.com/jrlost/templates/main/blog/schema.png)
+  <img src="https://raw.githubusercontent.com/jrlost/templates/main/blog/schema.png" width="650" alt="Schema Modal" />
 3. Click on the `Add Schema Button`.
 4. This will open a new modal. Enter `blog` as the schema name in this new modal.
 5. Click on the `Import schema` link.

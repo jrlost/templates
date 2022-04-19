@@ -4,7 +4,7 @@
 
 1. Go to the Dashboard.
 2. Click on `Start - New App with Blog`  
-  ![Dashboard with Start link](https://raw.githubusercontent.com/jrlost/templates/main/blog/dashboard.png =650x)
+  <img src="https://raw.githubusercontent.com/jrlost/templates/main/blog/dashboard.png" width="650" alt="Dashboard with Start link" />
 3. A modal will pop up. Enter a new app name.
 4. Click `Create`.
 

@@ -4,7 +4,7 @@
 
 1. Go to the Dashboard.
 2. Click on `Start - New App with Blog`  
-  <img src="https://raw.githubusercontent.com/jrlost/templates/main/blog/dashboard.png" width="650" alt="Dashboard with Start link" />
+    <img src="https://raw.githubusercontent.com/jrlost/templates/main/blog/dashboard.png" width="650" alt="Dashboard with Start link" />
 3. A modal will pop up. Enter a new app name.
 4. Click `Create`.
 
@@ -176,9 +176,9 @@
     }
     ```
 2. Open the schema page.  
-  <img src="https://raw.githubusercontent.com/jrlost/templates/main/blog/schema.png" width="650" alt="Schema Modal" />
-3. Click on the `Add Schema Button`.
-4. This will open a new modal. Enter `blog` as the schema name in this new modal.
-5. Click on the `Import schema` link.
-6. Paste the copied schema into the textbox.
-7. Click on `Create`
+    <img src="https://raw.githubusercontent.com/jrlost/templates/main/blog/schema.png" width="650" alt="Schema Modal" />  
+3. Click on the `Add Schema Button`.  
+4. This will open a new modal. Enter `blog` as the schema name in this new modal.  
+5. Click on the `Import schema` link.  
+6. Paste the copied schema into the textbox.  
+7. Click on `Create`  

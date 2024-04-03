@@ -15,11 +15,11 @@
     {
         "properties": {},
         "fieldsInLists": [
-            "title",
-            "author",
-            "displayDate",
-            "meta.status",
-            "meta.lastModified"
+            "data.title",
+            "data.author",
+            "data.displayDate",
+            "status",
+            "lastModified"   
         ],
         "fieldsInReferences": [],
         "fields": [
